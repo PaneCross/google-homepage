@@ -1,0 +1,119 @@
+html,body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+html {
+	font-size: 24px;
+	font-family: 'Open Sans', sans-serif;
+}
+body {
+	width: auto;
+}
+a {
+	text-decoration: none;
+	color: #636363;
+}
+a:hover {
+	text-decoration: underline;
+	color: #636363;
+}
+.header div {
+	margin-top: 18px;
+	display: inline-block;
+	height: 20px;
+	width: 55px;
+	font-size: 13px;
+	float: right;
+}
+#bell img {
+	height: 20px;
+	width: 20px;
+}
+#boxes table tr td {
+	height: 2px;
+	width: 2px;
+	background-color: #636363;
+	margin: 1px;
+}
+#boxes table {
+	margin-left: 10px;
+}
+.img img {
+	height: 92px;
+	display: block;
+	margin-top: 158px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	position: relative;
+}
+li {
+	display: inline;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#content {
+	padding-bottom:40px;
+}
+.footer {
+	background:#f2f2f2;
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:0px;
+	left:0;
+	font-size: 12px;
+	border-top: 1px solid #e2e2e2;
+}
+ul li a {
+	display: inline-block;
+	position: relative;
+	margin-left: 0px;
+	margin-right: 20px;
+}
+#searchbar {
+	margin-top: 31px;
+	display: block;
+	width: 460px;
+	padding: 11px 11px 7px 11px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	font-size: 16px;
+}
+.voice img {
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 20px;
+	margin-top: -30px;
+	right: -221px;
+}
+#center div {
+	display: inline-block;
+	position: relative;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#center {
+	margin-left: 460px;
+}
+#search input, #lucky input{
+	margin: 11px 1px;
+	min-width: 54px;
+	padding: 0 16px;
+	border: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+	font-size: 13px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	height: 36px;
+	line-height: 27px;
+	color: #757575;
+}
